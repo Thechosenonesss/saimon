@@ -10,6 +10,18 @@
  
  }
 }
+@media(max-width:300px){
+  button{
+    max-height: 50px !important;
+    max-width: 50px !important;
+
+  }
+ .buts{
+ max-height: 200px !important;
+  max-width: 200px !important;
+ 
+ }
+}
 body{
   margin: 0;
   padding: 0;

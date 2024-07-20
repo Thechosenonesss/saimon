@@ -41,6 +41,13 @@ $(document).keypress(function (event) {
    
   
 });
+$(document).on('touchstart',function(){
+  if (!gamestrat) {
+    userarray=[]
+    nextseq();
+    gamestrat = true;}
+    console.log(gamestrat)
+})
 
 function checkpattern(lvl) {
   
