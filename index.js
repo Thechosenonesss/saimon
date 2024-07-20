@@ -41,7 +41,7 @@ $(document).keypress(function (event) {
    
   
 });
-$(document).on('touchstart',function(){
+$(document).on('touchstart',function(event){
   if (!gamestrat) {
     userarray=[]
     nextseq();
