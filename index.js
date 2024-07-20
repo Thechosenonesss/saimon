@@ -72,6 +72,9 @@ function checkpattern(lvl) {
         $(document).keypress(function(){
             location.reload()
         })
+        $(document).on('touchstart',function(event){
+          location.reload()
+        })
     }
   
 }
